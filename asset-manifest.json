@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/movio-website/static/css/main.20460502.chunk.css",
+    "main.js": "/movio-website/static/js/main.5b1b563c.chunk.js",
+    "main.js.map": "/movio-website/static/js/main.5b1b563c.chunk.js.map",
+    "runtime-main.js": "/movio-website/static/js/runtime-main.eb8e7930.js",
+    "runtime-main.js.map": "/movio-website/static/js/runtime-main.eb8e7930.js.map",
+    "static/js/2.9a4c9c33.chunk.js": "/movio-website/static/js/2.9a4c9c33.chunk.js",
+    "static/js/2.9a4c9c33.chunk.js.map": "/movio-website/static/js/2.9a4c9c33.chunk.js.map",
+    "static/js/3.9e39fc94.chunk.js": "/movio-website/static/js/3.9e39fc94.chunk.js",
+    "static/js/3.9e39fc94.chunk.js.map": "/movio-website/static/js/3.9e39fc94.chunk.js.map",
+    "index.html": "/movio-website/index.html",
+    "static/css/main.20460502.chunk.css.map": "/movio-website/static/css/main.20460502.chunk.css.map",
+    "static/js/2.9a4c9c33.chunk.js.LICENSE.txt": "/movio-website/static/js/2.9a4c9c33.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb8e7930.js",
+    "static/js/2.9a4c9c33.chunk.js",
+    "static/css/main.20460502.chunk.css",
+    "static/js/main.5b1b563c.chunk.js"
+  ]
+}

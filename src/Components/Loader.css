@@ -1,0 +1,46 @@
+#loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom, #444444 0%, #333333 100%);
+	position: absolute;
+	top: 0;
+	left: -150px;
+	width: 100vw;
+	height: 100%;
+	z-index: 2;
+}
+
+#loader > span {
+	display: inline-block;
+	background-color: var(--secondary-color);
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	margin: 0 8px;
+	transform: translate3d(0);
+	animation: bounce 0.6s alternate infinite;
+}
+
+#loader > span:nth-child(2) {
+	background-color: var(--tertiary-color);
+	animation-delay: 0.2s;
+}
+
+#loader > span:nth-child(3) {
+	animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+	to {
+		width: 16px;
+		height: 16px;
+		transform: translate3d(0, -16px, 0);
+	}
+}
+
+@media(max-width: 600px) {
+	#loader {
+		left: 0px;
+	}
+}
